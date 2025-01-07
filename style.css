@@ -56,7 +56,13 @@ header h1 {
     width: 45%;
 }
 .text p{
-    font-size: 1.2em;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+.text h1{
+    font-size: 3em;
+    padding-left: 3%;
+    padding-bottom: 3%;
 }
 .boxes {
     padding-top: 7%;
@@ -198,38 +204,52 @@ button {
 button:hover {
     background-color: #777;
 }
-@media(max-width: 360px){
-    ul{
+
+@media(max-width: 768px){
+    .navbar{
         display: none;
     }
-    .headeer{
-        padding: 5px 0px;
-    }
-    .hero text,p{
-        font-size: 0.8em;
-    }
-    .hero text,h2{
-        font-size: 1em;
-        padding: 2px 3px;
+    .header h1{
+        padding: 20px 40px;
         
     }
     .text{
-        width: 20%;
-        padding-left: 0px;
-        display: block;
-        padding-bottom: 50%;
+        width: 100%;
+        
     }
-    .hero boxes{
-        display: none;
-        padding-right: 1px;
+    .text h1{
+        font-size: 4em;
     }
-    .about-content{
-        display: block;
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .about-content img{
-        width: 100px;
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    /*  */
+    .box1 h3{
+font-size: 1.6em;
+    }
+    .box1 p{
+        font-size: 1.2em;
+            }
+            .box2 h3{
+          font-size: 1.6em;
+           }
+          .box2 p{
+             font-size: 1.2em;
+             }
+             .about-content{
+                display: flex;
+        flex-direction: column;
+        align-items: center;
+             }
+            .contact-section{
+                display: none;
+            }
 }
 html{
     scroll-behavior: smooth;
