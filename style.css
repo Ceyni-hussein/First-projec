@@ -219,6 +219,7 @@ button:hover {
     }
     .text h1{
         font-size: 4em;
+        
     }
     .hero{
         display: flex;
@@ -246,6 +247,14 @@ font-size: 1.6em;
                 display: flex;
         flex-direction: column;
         align-items: center;
+             }
+             .menu-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+             }
+             .about-content p{
+                padding-top: 12%;
              }
             .contact-section{
                 display: none;
